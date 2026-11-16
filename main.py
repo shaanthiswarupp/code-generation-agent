@@ -22,7 +22,7 @@ def get_calculator_info():
 
 
 def get_calculator_version():
-        return "Calculator Version 1.0"
+    return 'Calculator Version 1.0'
 
 
 if __name__ == "__main__":
