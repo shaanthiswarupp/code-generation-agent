@@ -9,6 +9,15 @@ def divide_numbers(a, b):
     if b == 0:
         return "Error: Cannot divide by zero"
     return a / b
+
+def get_calculator_info():
+    return [
+        "add_numbers",
+        "subtract_numbers",
+        "multiply_numbers",
+        "divide_numbers"
+    ]
+
 # Main program
 if __name__ == "__main__":
     while True:
